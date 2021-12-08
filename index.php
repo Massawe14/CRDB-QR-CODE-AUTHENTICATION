@@ -38,6 +38,11 @@
         <h3 class="greeting">Welcome To Branch Managers Conference 2021</h3>
         <!-- <p class="message">We maintain an informal but productive environment that cherishes wisdom, nurtures intellect and celebrates talent. All ideas at CRDB Bank are considered valuable contributions and each employee is encouraged to share any innovative and inspiring ideas.</p> -->
     </div>
+
+    <div id="output_dialog" style="display: none;">
+        <span>Welcome</span>
+        <span id="full_name_text"></span>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
 
@@ -97,6 +102,15 @@
             function showOutput(first_name, last_name) {
                 speech.text = "Welcome, " + first_name + " " + last_name;
                 window.speechSynthesis.speak(speech);
+                //
+                var dialog = document.getElementById("output_dialog");
+                var full_name_text = document.getElementById("full_name_text");
+                full_name_text.innerHTML = first_name + " " + last_name;
+                dialog.style.display = "block";
+                setTimeout(() => {
+                    full_name_text.innerHTML = "";
+                    dialog.style.display = "none";
+                }, 3000);
             }
         } catch (e) {
         console.log(e);
