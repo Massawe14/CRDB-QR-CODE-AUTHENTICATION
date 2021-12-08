@@ -1,0 +1,92 @@
+html {
+    width: auto;
+    height: auto;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Cabin', sans-serif;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.7;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-image: linear-gradient(to top, rgb(30, 37, 92), rgb(53, 65, 177), rgb(53, 65, 177)); */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgba(42, 184, 61, 0);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(137, 224, 134);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(182, 235, 168);
+}
+
+.user-select-none {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.btn {
+    width: 300px;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    background-color: #25a719;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+}*/
+
+.greeting {
+    width: 300px;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #25a719;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+.message {
+    width: 600px;
+    font-size: 20px;
+    color: #25a719;
+    text-align: center;
+}
