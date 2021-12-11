@@ -44,7 +44,7 @@
     if ($full_name != "" && $branch_name != "" && $zone != "") {
       // echo '{"first_name": "' . $first_name . '", "last_name": "' .$last_name . '"}';
       // echo '{"full_name": "' .$full_name . '"}'; 
-      if (date("d-m-Y") === "11-12-2021") {
+      if (date("d-m-Y") === "13-12-2021") {
         $query = "INSERT INTO `monday`(`full_name`, `branch_name`, `zone`) VALUES ('$full_name', '$branch_name', '$zone')";
         $result = mysqli_query($conn, $query);
         if ($result) {
@@ -54,7 +54,7 @@
         else{
           echo "Not attend";
         }
-      }else if (date("d-m-Y") === "12-12-2021") {
+      }else if (date("d-m-Y") === "14-12-2021") {
         $query = "INSERT INTO `eventlist`(`full_name`, `branch_name`, `zone`) VALUES ('$full_name', '$branch_name', '$zone')";
         $result = mysqli_query($conn, $query);
         if ($result) {
