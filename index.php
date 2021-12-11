@@ -3,7 +3,7 @@
   $host = "localhost"; 
   $username = "root"; 
   $password = ""; 
-  $db = "event_db"; 
+  $db = "crdb_event"; 
 
   // Connection
   $conn = mysqli_connect("$host","$username","$password","$db");
@@ -83,11 +83,13 @@
                             console.log('error: ', obj.error);
                             return;
                         }
-                        const first_name = obj.first_name;
-                        const last_name = obj.last_name;
-                        console.log('first_name: ', first_name);
-                        console.log('last_name: ', last_name);
-                        showOutput(first_name, last_name);
+                        // const first_name = obj.first_name;
+                        // const last_name = obj.last_name;
+                        const full_name = obj.full_name;
+                        // console.log('first_name: ', first_name);
+                        console.log('full_name: ', full_name);
+                        // showOutput(first_name, last_name);
+                        showOutput(full_name);
                         } catch (e) {
                             console.log(e);
                         }
@@ -97,12 +99,14 @@
                 }
             });
 
-            function showOutput(first_name, last_name) {
-                speech.text = "Welcome, " + first_name + " " + last_name;
+            function showOutput(full_name) {
+                // speech.text = "Welcome, " + first_name + " " + last_name;
+                speech.text = "Welcome, " + full_name;
                 window.speechSynthesis.speak(speech);
                 var dialog = document.getElementById("output_dialog");
                 var full_name_text = document.getElementById("full_name_text");
-                full_name_text.innerHTML = first_name + " " + last_name;
+                // full_name_text.innerHTML = first_name + " " + last_name;
+                full_name_text.innerHTML = full_name;
                 dialog.style.display = "block";
                 setTimeout(() => {
                     full_name_text.innerHTML = "";

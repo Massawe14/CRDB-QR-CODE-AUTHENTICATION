@@ -3,7 +3,8 @@
 
   $qrcode = $_POST['code']; 
 
-  $query = "SELECT first_name, last_name FROM qrcodes WHERE qrImage='$qrcode' LIMIT 1";
+  // $query = "SELECT first_name, last_name FROM qrcodes WHERE qrImage='$qrcode' LIMIT 1";
+  $query = "SELECT full_name FROM barcodes WHERE qrImage='$qrcode' LIMIT 1";
   $result = mysqli_query($conn, $query);
 
   // if ($result) {
@@ -24,15 +25,21 @@
   // 	echo "Not Authorized";
   // }
   if (mysqli_num_rows($result) > 0) {
-  	$first_name = "";
-    $last_name = "";
+  	// $first_name = "";
+   //  $last_name = "";
+    $full_name = "";
     foreach ($result as $row) {
-    	$first_name = $row['first_name'];
-    	$last_name = $row['last_name'];
+    	// $first_name = $row['first_name'];
+    	// $last_name = $row['last_name'];
+      $full_name = $row['full_name'];
     }
-  	if ($first_name != "" && $last_name != "") {
-  		echo '{"first_name": "' . $first_name . '", "last_name": "' .$last_name . '"}';
-  	}
+  	// if ($first_name != "" && $last_name != "") {
+  	// 	echo '{"first_name": "' . $first_name . '", "last_name": "' .$last_name . '"}';
+  	// }
+    if ($full_name != "") {
+      // echo '{"first_name": "' . $first_name . '", "last_name": "' .$last_name . '"}';
+      echo '{"full_name": "' .$full_name . '"}';
+    }
   	else {
     	echo '{"error": "Not Found"}';
     }

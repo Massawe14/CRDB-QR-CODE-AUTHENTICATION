@@ -3,7 +3,7 @@
   $host = "localhost"; 
   $username = "root"; 
   $password = ""; 
-  $db = "event_db"; 
+  $db = "crdb_event"; 
 
   // Connection
   $conn = mysqli_connect("$host","$username","$password","$db");
