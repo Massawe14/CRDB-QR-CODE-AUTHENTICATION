@@ -64,6 +64,8 @@
         else{
           echo "Not attend";
         }
+      }else{
+        echo '{"full_name": "' .$full_name . '"}';
       }
     }
   	else {
