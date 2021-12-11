@@ -1,5 +1,5 @@
 <?php 
-
+  date_default_timezone_set("Africa/Dar_es_Salaam");
   $host = "localhost"; 
   $username = "root"; 
   $password = ""; 
@@ -61,7 +61,6 @@
                 }
                 
             };
-        
             var txt = "";
             document.addEventListener("keypress", function(event) {
                 var char = event.key;
@@ -77,7 +76,7 @@
                       .done(function( response ) {
                         //console.log("qr response ", response);
                         try {  
-                        //console.log(typeof response);
+                        console.log(response);
                         var obj = JSON.parse(response);
                         if (obj.error) {
                             console.log('error: ', obj.error);
@@ -86,10 +85,14 @@
                         // const first_name = obj.first_name;
                         // const last_name = obj.last_name;
                         const full_name = obj.full_name;
+                        const branch_name = obj.branch_name;
+                        const zone = obj.zone;
                         // console.log('first_name: ', first_name);
                         console.log('full_name: ', full_name);
+                        console.log('branch_name: ', branch_name);
+                        console.log('zone: ', zone);
                         // showOutput(first_name, last_name);
-                        showOutput(full_name);
+                        showOutput(full_name, branch_name, zone);
                         } catch (e) {
                             console.log(e);
                         }
@@ -99,7 +102,7 @@
                 }
             });
 
-            function showOutput(full_name) {
+            function showOutput(full_name, branch_name, zone) {
                 // speech.text = "Welcome, " + first_name + " " + last_name;
                 // speech.text = "Welcome, " + full_name;
                 speech.text = "Welcome";
