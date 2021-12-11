@@ -85,8 +85,8 @@ body {
 }
 
 #output_dialog {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -97,7 +97,8 @@ body {
     border-radius: 8px;
     border-style: solid;
     border-width: 0px;
-    display: flex;
+    display: none;
+    justify-content:center
 }
 
 #welcome {
@@ -106,18 +107,16 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: #25a719;
-    padding: 10px;
+    padding: 150px;
     margin: 30px;
     text-align: center;
 }
 
 #full_name_text {
-    width: 300px;
-    height: auto;
     font-size: 30px;
     font-weight: bold;
     color: #25a719;
-    padding: 10px;
+    padding: 150px;
     margin: 30px;
     text-align: center;
 }
