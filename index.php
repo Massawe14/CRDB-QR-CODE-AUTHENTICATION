@@ -38,7 +38,7 @@
     </div>
 
     <div id="output_dialog">
-        <span id="welcome">Welcome</span>
+        <!-- <span id="welcome">Welcome</span> -->
         <span id="full_name_text"></span>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -101,7 +101,8 @@
 
             function showOutput(full_name) {
                 // speech.text = "Welcome, " + first_name + " " + last_name;
-                speech.text = "Welcome, " + full_name;
+                // speech.text = "Welcome, " + full_name;
+                speech.text = "Welcome";
                 window.speechSynthesis.speak(speech);
                 var dialog = document.getElementById("output_dialog");
                 var full_name_text = document.getElementById("full_name_text");

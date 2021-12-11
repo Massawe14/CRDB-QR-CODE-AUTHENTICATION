@@ -74,9 +74,10 @@ body {
 }*/
 
 .greeting {
-    width: 300px;
+    width: 1600px;
     height: auto;
-    font-size: 30px;
+    /*background-color: black;*/
+    font-size: 60px;
     font-weight: bold;
     color: #25a719;
     padding: 10px;
@@ -85,26 +86,28 @@ body {
 }
 
 #output_dialog {
-    width: 500px;
+    width: 1600px;
     height: 400px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    margin-top: -200px;
-    margin-left: -250px;
+    /*top: 50%;
+    left: 50%;*/
+    /*position: absolute;*/
+    margin-top: 320px;
+    /*margin-left: -250px;
+    padding-left: 100px;*/
     z-index: 10;
     background-color: white;
-    border-radius: 8px;
+    /*border-radius: 8px;
     border-style: solid;
-    border-width: 0px;
+    border-width: 0px;*/
     display: none;
-    justify-content:center
+    text-align: center;
+    /*justify-content:center*/
 }
 
-#welcome {
-    width: 300px;
+/*#welcome {
+    width: 1600px;
     height: auto;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     color: #25a719;
     padding: 150px;
@@ -113,12 +116,23 @@ body {
 }
 
 #full_name_text {
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     color: #25a719;
     padding: 150px;
     margin: 30px;
     text-align: center;
+}*/
+
+#full_name_text {
+    font-size: 60px;
+    font-weight: bold;
+    color: #25a719;
+    /*padding: 50px;*/
+    /*margin: 30px;*/
+    padding-right: 300px;
+    /*text-align: center;*/
+    justify-content: center;
 }
 
 .message {
