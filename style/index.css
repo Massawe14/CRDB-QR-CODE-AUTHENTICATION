@@ -11,7 +11,7 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     font-family: 'FSLucasPro';
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240,248,255);
     line-height: 1.7;
     background-attachment: fixed;
     background-size: cover;
@@ -72,17 +72,17 @@ body {
     height: 400px;
     margin-top: 300px;
     z-index: 10;
-    background-color: white;
+    background-color: rgb(240,248,255);
     display: none;
     text-align: center;
 }
 
 #full_name_text {
     display: flex;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: #fcce0b;
-    padding-right: 200px;
+    padding-right: 300px;
     justify-content: center;
 }
 
@@ -90,6 +90,7 @@ body {
     font-size: 100px;
     font-weight: bold;
     color: #fcce0b;
+    padding-right: 350px;
     text-align: center;
     justify-content: center;
 }
