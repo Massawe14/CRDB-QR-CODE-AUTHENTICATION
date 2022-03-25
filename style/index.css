@@ -70,7 +70,7 @@ body {
 #output_dialog {
     width: 1600px;
     height: 400px;
-    margin-top: 320px;
+    margin-top: 300px;
     z-index: 10;
     background-color: white;
     display: none;
@@ -87,10 +87,9 @@ body {
 }
 
 #table_number_text {
-    display: flex;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
-    color: #363d93;
+    color: #fcce0b;
     text-align: center;
     justify-content: center;
 }
