@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'FS Lucas Pro XtraBd';
+    src: url('FSLucasPro-XtraBdItalic.eot');
+    src: local('FS Lucas Pro XtraBd Italic'), local('FSLucasPro-XtraBdItalic'),
+        url('FSLucasPro-XtraBdItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-XtraBdItalic.woff2') format('woff2'),
+        url('FSLucasPro-XtraBdItalic.woff') format('woff'),
+        url('FSLucasPro-XtraBdItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Black.eot');
+    src: local('FS Lucas Pro Black'), local('FSLucasPro-Black'),
+        url('FSLucasPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Black.woff2') format('woff2'),
+        url('FSLucasPro-Black.woff') format('woff'),
+        url('FSLucasPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-ThinItalic.eot');
+    src: local('FS Lucas Pro Thin Italic'), local('FSLucasPro-ThinItalic'),
+        url('FSLucasPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-ThinItalic.woff2') format('woff2'),
+        url('FSLucasPro-ThinItalic.woff') format('woff'),
+        url('FSLucasPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro Med';
+    src: url('FSLucasPro-MedItalic.eot');
+    src: local('FS Lucas Pro Med Italic'), local('FSLucasPro-MedItalic'),
+        url('FSLucasPro-MedItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-MedItalic.woff2') format('woff2'),
+        url('FSLucasPro-MedItalic.woff') format('woff'),
+        url('FSLucasPro-MedItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro SemiBd';
+    src: url('FSLucasPro-SemiBd.eot');
+    src: local('FS Lucas Pro SemiBd'), local('FSLucasPro-SemiBd'),
+        url('FSLucasPro-SemiBd.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-SemiBd.woff2') format('woff2'),
+        url('FSLucasPro-SemiBd.woff') format('woff'),
+        url('FSLucasPro-SemiBd.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Thin.eot');
+    src: local('FS Lucas Pro Thin'), local('FSLucasPro-Thin'),
+        url('FSLucasPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Thin.woff2') format('woff2'),
+        url('FSLucasPro-Thin.woff') format('woff'),
+        url('FSLucasPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-BlackItalic.eot');
+    src: local('FS Lucas Pro Black Italic'), local('FSLucasPro-BlackItalic'),
+        url('FSLucasPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-BlackItalic.woff2') format('woff2'),
+        url('FSLucasPro-BlackItalic.woff') format('woff'),
+        url('FSLucasPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Italic.eot');
+    src: local('FS Lucas Pro Italic'), local('FSLucasPro-Italic'),
+        url('FSLucasPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Italic.woff2') format('woff2'),
+        url('FSLucasPro-Italic.woff') format('woff'),
+        url('FSLucasPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro XtraBd';
+    src: url('FSLucasPro-XtraBd.eot');
+    src: local('FS Lucas Pro XtraBd'), local('FSLucasPro-XtraBd'),
+        url('FSLucasPro-XtraBd.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-XtraBd.woff2') format('woff2'),
+        url('FSLucasPro-XtraBd.woff') format('woff'),
+        url('FSLucasPro-XtraBd.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Regular.eot');
+    src: local('FS Lucas Pro Regular'), local('FSLucasPro-Regular'),
+        url('FSLucasPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Regular.woff2') format('woff2'),
+        url('FSLucasPro-Regular.woff') format('woff'),
+        url('FSLucasPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro XLight';
+    src: url('FSLucasPro-XLight.eot');
+    src: local('FS Lucas Pro XLight'), local('FSLucasPro-XLight'),
+        url('FSLucasPro-XLight.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-XLight.woff2') format('woff2'),
+        url('FSLucasPro-XLight.woff') format('woff'),
+        url('FSLucasPro-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro SemiBd';
+    src: url('FSLucasPro-SemiBdItalic.eot');
+    src: local('FS Lucas Pro SemiBd Italic'), local('FSLucasPro-SemiBdItalic'),
+        url('FSLucasPro-SemiBdItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-SemiBdItalic.woff2') format('woff2'),
+        url('FSLucasPro-SemiBdItalic.woff') format('woff'),
+        url('FSLucasPro-SemiBdItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-BoldItalic.eot');
+    src: local('FS Lucas Pro Bold Italic'), local('FSLucasPro-BoldItalic'),
+        url('FSLucasPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-BoldItalic.woff2') format('woff2'),
+        url('FSLucasPro-BoldItalic.woff') format('woff'),
+        url('FSLucasPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Light.eot');
+    src: local('FS Lucas Pro Light'), local('FSLucasPro-Light'),
+        url('FSLucasPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Light.woff2') format('woff2'),
+        url('FSLucasPro-Light.woff') format('woff'),
+        url('FSLucasPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro Med';
+    src: url('FSLucasPro-Med.eot');
+    src: local('FS Lucas Pro Med'), local('FSLucasPro-Med'),
+        url('FSLucasPro-Med.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Med.woff2') format('woff2'),
+        url('FSLucasPro-Med.woff') format('woff'),
+        url('FSLucasPro-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-Bold.eot');
+    src: local('FS Lucas Pro Bold'), local('FSLucasPro-Bold'),
+        url('FSLucasPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-Bold.woff2') format('woff2'),
+        url('FSLucasPro-Bold.woff') format('woff'),
+        url('FSLucasPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro XLight';
+    src: url('FSLucasPro-XLightItalic.eot');
+    src: local('FS Lucas Pro XLight Italic'), local('FSLucasPro-XLightItalic'),
+        url('FSLucasPro-XLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-XLightItalic.woff2') format('woff2'),
+        url('FSLucasPro-XLightItalic.woff') format('woff'),
+        url('FSLucasPro-XLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Lucas Pro';
+    src: url('FSLucasPro-LightItalic.eot');
+    src: local('FS Lucas Pro Light Italic'), local('FSLucasPro-LightItalic'),
+        url('FSLucasPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('FSLucasPro-LightItalic.woff2') format('woff2'),
+        url('FSLucasPro-LightItalic.woff') format('woff'),
+        url('FSLucasPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
