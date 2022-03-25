@@ -38,7 +38,6 @@
     </div>
 
     <div id="output_dialog">
-        <!-- <span id="welcome">Welcome</span> -->
         <span id="full_name_text"></span>
         <span id="table_number_text"></span>
     </div>
@@ -48,7 +47,6 @@
         try {  
             let speech = new SpeechSynthesisUtterance();
             speech.lang = "en";
-            //speech.text = "Welcome, " + first_name + " " + last_name;
             speech.rate = 1;
             speech.pitch = 1;
             speech.volume = 100;
@@ -75,7 +73,6 @@
                       data: { code: code }
                     })
                       .done(function( response ) {
-                        //console.log("qr response ", response);
                         try {  
                         console.log(response);
                         var obj = JSON.parse(response);
