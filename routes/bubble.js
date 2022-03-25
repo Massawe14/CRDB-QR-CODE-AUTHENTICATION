@@ -68,8 +68,8 @@ class Bubble {
 
         return `rgba(
             0,
-            ${this.randomNumber(100, 255)},
-            0, 
+            0,
+            ${this.randomNumber(100, 255)}, 
             ${this.randomNumber(0.1, 1)})`;
     }
 

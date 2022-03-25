@@ -3,7 +3,7 @@
   $host = "localhost"; 
   $username = "root"; 
   $password = ""; 
-  $db = "crdb_event"; 
+  $db = "wima_event"; 
 
   // Connection
   $conn = mysqli_connect("$host","$username","$password","$db");
@@ -34,12 +34,13 @@
 
 <body id="app-main">
     <div class="btn-container">
-        <h3 class="greeting">Welcome To Branch Managers Conference 2021</h3>
+        <h3 class="greeting">WELCOME TO WIMA EVENT</h3>
     </div>
 
     <div id="output_dialog">
         <!-- <span id="welcome">Welcome</span> -->
         <span id="full_name_text"></span>
+        <span id="table_number_text"></span>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -82,17 +83,17 @@
                             console.log('error: ', obj.error);
                             return;
                         }
-                        // const first_name = obj.first_name;
-                        // const last_name = obj.last_name;
                         const full_name = obj.full_name;
-                        const branch_name = obj.branch_name;
-                        const zone = obj.zone;
-                        // console.log('first_name: ', first_name);
-                        console.log('full_name: ', full_name);
-                        console.log('branch_name: ', branch_name);
-                        console.log('zone: ', zone);
-                        // showOutput(first_name, last_name);
-                        showOutput(full_name, branch_name, zone);
+                        const phone_number = obj.phone_number;
+                        const company_name = obj.company_name;
+                        const position = obj.position;
+                        const table_number = obj.table_number;
+                        console.log('fullname: ', full_name);
+                        console.log('phone number: ', phone_number);
+                        console.log('company name: ', company_name);
+                        console.log('position: ', position);
+                        console.log('table_number: ', table_number);
+                        showOutput(full_name, phone_number, company_name, position, table_number);
                         } catch (e) {
                             console.log(e);
                         }
@@ -102,18 +103,18 @@
                 }
             });
 
-            function showOutput(full_name, branch_name, zone) {
-                // speech.text = "Welcome, " + first_name + " " + last_name;
-                // speech.text = "Welcome, " + full_name;
+            function showOutput(full_name, phone_number, company_name, position, table_number) {
                 speech.text = "Welcome";
                 window.speechSynthesis.speak(speech);
                 var dialog = document.getElementById("output_dialog");
                 var full_name_text = document.getElementById("full_name_text");
-                // full_name_text.innerHTML = first_name + " " + last_name;
+                var table_number_text = document.getElementById("table_number_text");
                 full_name_text.innerHTML = full_name;
+                table_number_text.innerHTML = table_number;
                 dialog.style.display = "block";
                 setTimeout(() => {
                     full_name_text.innerHTML = "";
+                    table_number_text.innerHTML = "";
                     dialog.style.display = "none";
                 }, 3000);
             }

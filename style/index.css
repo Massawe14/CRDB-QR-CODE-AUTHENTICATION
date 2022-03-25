@@ -79,7 +79,7 @@ body {
     /*background-color: black;*/
     font-size: 60px;
     font-weight: bold;
-    color: #25a719;
+    color: #fcce0b;
     padding: 10px;
     margin: 30px;
     text-align: center;
@@ -127,7 +127,7 @@ body {
 #full_name_text {
     font-size: 60px;
     font-weight: bold;
-    color: #25a719;
+    color: #fcce0b;
     /*padding: 50px;*/
     /*margin: 30px;*/
     padding-right: 300px;
@@ -135,9 +135,17 @@ body {
     justify-content: center;
 }
 
+#table_number_text {
+    font-size: 50px;
+    font-weight: 400;
+    color: #363d93;
+    text-align: center;
+    justify-content: center;
+}
+
 .message {
     width: 600px;
     font-size: 20px;
-    color: #25a719;
+    color: #fcce0b;
     text-align: center;
 }
