@@ -14,10 +14,8 @@
   }
 
 ?>
-
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <title>QR Code Scanner</title>
@@ -29,21 +27,17 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
     <meta name="description" content="CRDB QR Code Scanner">
     <meta name="robots" content="noindex,follow" />
-
 </head>
-
 <body id="app-main">
     <div class="btn-container">
         <h3 class="greeting">WELCOME TO WIMA EVENT</h3>
     </div>
-
     <div id="output_dialog">
         <span id="full_name_text"></span>
         <span id="table_number_text"></span>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
-
         try {  
             let speech = new SpeechSynthesisUtterance();
             speech.lang = "en";
@@ -119,8 +113,6 @@
         console.log(e);
         }
     </script>
-    <script src="routes/bubble.js" type="text/javascript"></script>
-    
+    <script src="routes/bubble.js" type="text/javascript"></script> 
 </body>
-
 </html>
